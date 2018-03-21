@@ -25,4 +25,7 @@ class Config(object):
             cargs = obj['args']
         if 'kwargs' in obj:
             ckwargs = obj['kwargs']
-        return constructor(*args, *cargs, **kwargs, **ckwargs)
+        return constructor(
+            *(list(args) + cargs),
+            **dict(kwargs, **ckwargs)
+        )

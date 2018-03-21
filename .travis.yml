@@ -1,0 +1,22 @@
+language: python
+cache:
+    apt: true
+    pip: true
+    directories:
+        - $HOME/.cache/pip
+        - $HOME/.ccache
+
+python: 2.7
+dist: trusty
+
+install:
+    - export CC=/usr/lib/ccache/gcc
+    - export CXX=/usr/lib/ccache/g++
+    - ccache --max-size 100M --show-stats
+    - virtualenv --system-site-packages testvenv
+    - source testvenv/bin/activate
+    - pip install pandas scikit-learn scipy
+
+script:
+    - source testvenv/bin/activate
+    - python main.py -d data/XSS.csv config.json.example
