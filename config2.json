@@ -1,0 +1,33 @@
+{
+    "classifier": {
+        "class": [ "sklearn.neural_network", "MLPClassifier" ]
+    },
+    "vectorizer": {
+        "class": [ "sklearn.feature_extraction.text", "TfidfVectorizer" ],
+        "kwargs": {
+            "analyzer": "word",
+            "ngram_range": [1, 1]
+        }
+    },
+    "cross-validation": {
+        "class": [ "sklearn.model_selection", "ShuffleSplit" ],
+        "kwargs": {
+            "n_splits": 5,
+            "test_size": 0.2,
+            "random_state": 0
+        }
+    },
+    "search": {
+        "class": [ "sklearn.model_selection", "GridSearchCV" ],
+        "args": [
+            {
+                "solver": ["adam"],
+                "alpha": [1e-5],
+                "hidden_layer_sizes": [ [20, 10] ]
+            }
+        ],
+        "kwargs": {
+            "n_jobs": 2
+        }
+    }
+}
