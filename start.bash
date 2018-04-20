@@ -1,1 +1,0 @@
-/d/Anaconda3-5.1.0/python main.py -d data/XSS.csv -s mlp.save --save-vectorizer XSSVextorizer.vect config2.json
