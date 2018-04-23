@@ -71,6 +71,7 @@ if __name__ == '__main__':
         print('False positive:', false_pos, 'of total', sum, 'it\'s equals', false_pos / sum)
         print('True negative:', true_neg, 'of total', sum, 'it\'s equals', true_neg / sum)
         print('False negative:', false_neg, 'of total', sum, 'it\'s equals', false_neg / sum)
+
     if args.save:
         detector.save(args.save)
     if(args.save_vectorizer):
