@@ -38,7 +38,7 @@ if __name__ == '__main__':
     vectorizer = Vectorizer(cfg)
     vectorizer.load(args.vectorizer)
     if args.dataset:
-        csv_data_set = pd.read_csv(args.dataset).dropna()
+        csv_data_set = pd.read_csv(args.dataset, encoding = 'utf-8').dropna()
         csv_data_set['source'] = list(map(lambda x: x.lower(), csv_data_set['source']))
         csv_data_set['source'] = list(map(split_string, csv_data_set['source']))
         vectorizer.fit(csv_data_set['source'])
@@ -53,7 +53,7 @@ if __name__ == '__main__':
         search = predict(vectorizer, args.link)
         print('Predicted class:', search)
     if args.test:
-        test_data_set = pd.read_csv(args.test).dropna()
+        test_data_set = pd.read_csv(args.test, encoding = 'utf-8').dropna()
         known_classes = test_data_set['language']
         predicted_classes = []
         # attack = 0
