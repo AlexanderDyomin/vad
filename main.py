@@ -1,8 +1,5 @@
-import argparse
-import pandas as pd
 from vad import *
 from sklearn.metrics import classification_report
-
 def process_args():
     parser = argparse.ArgumentParser(description='Detector of vulnerabilities')
     parser.add_argument('config', metavar='config', nargs='?', type=str, default='config.json')
@@ -20,7 +17,7 @@ def predict(vectorizer, url_string):
     splitted_string = split_string(lower_string)
     print(splitted_string)
     word_matrix = vectorizer.transform([splitted_string])
-    search = detector.search.predict(word_matrix)
+    search = detector.detect(word_matrix)
     return str(search[0])
 
 # TODO: Datasets
@@ -37,9 +34,8 @@ if __name__ == '__main__':
     detector.load(args.load)
     vectorizer = Vectorizer(cfg)
     vectorizer.load(args.vectorizer)
-    vectorizer.vectorizer.set_params(preprocessor=lambda x: x.strip())
     if args.dataset:
-        csv_data_set = pd.read_csv(args.dataset).dropna()
+        csv_data_set = pd.read_csv(args.dataset, encoding = 'utf-8').dropna()
         csv_data_set['source'] = list(map(lambda x: x.lower(), csv_data_set['source']))
         csv_data_set['source'] = list(map(split_string, csv_data_set['source']))
         vectorizer.fit(csv_data_set['source'])
@@ -54,7 +50,7 @@ if __name__ == '__main__':
         search = predict(vectorizer, args.link)
         print('Predicted class:', search)
     if args.test:
-        test_data_set = pd.read_csv(args.test).dropna()
+        test_data_set = pd.read_csv(args.test, encoding = 'utf-8').dropna()
         known_classes = test_data_set['language']
         predicted_classes = []
         # attack = 0
@@ -94,5 +90,4 @@ if __name__ == '__main__':
     if args.save:
         detector.save(args.save)
     if(args.save_vectorizer):
-        vectorizer.vectorizer.set_params(preprocessor=None)
         vectorizer.save(args.save_vectorizer)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import re
 
 def split_string(url_str):
