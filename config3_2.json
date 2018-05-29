@@ -1,0 +1,37 @@
+{
+    "classifier": {
+        "class": [ "sklearn.neural_network", "MLPClassifier" ],
+        "kwargs": {
+            "max_iter": 1000
+        }
+    },
+    "vectorizer": {
+        "class": [ "sklearn.feature_extraction.text", "TfidfVectorizer" ],
+        "kwargs": {
+            "analyzer": "word",
+            "ngram_range": [1, 2],
+            "token_pattern": "\\b.+\\b"
+        }
+    },
+    "cross-validation": {
+        "class": [ "sklearn.model_selection", "ShuffleSplit" ],
+        "kwargs": {
+            "n_splits": 5,
+            "test_size": 0.2,
+            "random_state": 0
+        }
+    },
+    "search": {
+        "class": [ "sklearn.model_selection", "GridSearchCV" ],
+        "args": [
+            {
+                "solver": ["lbfgs", "sgd", "adam"],
+                "alpha": [1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2],
+                "hidden_layer_sizes": [ [20], [10, 5], [20, 10], [30, 20, 10], [30], [30, 20], [40],  [81, 9, 3] ]
+            }
+        ],
+        "kwargs": {
+            "n_jobs": 2
+        }
+    }
+}

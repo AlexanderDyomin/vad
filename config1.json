@@ -1,6 +1,9 @@
 {
     "classifier": {
-        "class": [ "sklearn.neural_network", "MLPClassifier" ]
+        "class": [ "sklearn.neural_network", "MLPClassifier" ],
+		"kwargs": {
+			"max_iter": 1000
+		}
     },
     "vectorizer": {
         "class": [ "sklearn.feature_extraction.text", "TfidfVectorizer" ],
