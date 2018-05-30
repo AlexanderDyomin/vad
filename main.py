@@ -1,5 +1,7 @@
 from vad import *
 from sklearn.metrics import classification_report
+import argparse
+import pandas as pd
 def process_args():
     parser = argparse.ArgumentParser(description='Detector of vulnerabilities')
     parser.add_argument('config', metavar='config', nargs='?', type=str, default='config.json')
